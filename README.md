@@ -1,9 +1,6 @@
 # mrkdown
 
-mrkdown is an iOS app to create Tumblr posts with Markdown.
-
-![editor screen](docs/screenshots/editor.png)
-![preview screen](docs/screenshots/preview.png)
+mrkdown is an android app to create Tumblr posts with Markdown.
 
 ## Motivation
 
@@ -15,8 +12,8 @@ post in Markdown.
 ## Goals
 
 * [ ] Preview functionality
-  * [x] Headings
-  * [x] Formatted text
+  * [ ] Headings
+  * [ ] Formatted text
   * [ ] Links
   * [ ] Images
 * [ ] Ability to add media (images, etc.) to posts
@@ -25,16 +22,11 @@ post in Markdown.
   * [ ] Possible share extension from the Tumblr app
 * [ ] Syntax highlighting in editor view
 * [ ] Report bugs in-app that open GitHub issues
-* [ ] iPad layout
-  * [ ] ~Potential Mac Catalyst support~
-    * Due to the Mac Catalyst framework supporting UIKit rather than SwiftUI,
-    this feature will most likely not be implemented.
+* [ ] Tablet layout
 
 ## Compatibility
 
-The current lowest supported iOS version is 16.4. If your iPhone appears in
-[this list](https://support.apple.com/guide/iphone/supported-models-iphe3fa5df43/16.0/ios/16.0),
-it should be supported. Please
+The current lowest supported Android version is 24 (Android 7.0 Nougat). Please
 [open an issue](https://github.com/tweakdeveloper/mrkdown/issues/new/choose)
 using the "Bug Report" template if you experience any unexpected issues.
 
@@ -43,7 +35,7 @@ using the "Bug Report" template if you experience any unexpected issues.
 I'm happy to have you join me in creating mrkdown! Please reference
 [my contribution guidelines](CONTRIBUTING.md), and if anything is unclear,
 don't hesitate to
-[open an issue](https://github.com/tweakdeveloper/mrkdown/issues/new/choose).
+[open an issue](https://github.com/tweakdeveloper/mrkdown-android/issues/new/choose).
 
 ### Code of Conduct
 
