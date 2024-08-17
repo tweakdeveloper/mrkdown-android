@@ -1,5 +1,6 @@
 plugins {
   alias(libs.plugins.android.application)
+  alias(libs.plugins.compose.compiler)
   alias(libs.plugins.jetbrains.kotlin.android)
 }
 
@@ -18,6 +19,9 @@ android {
     testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
   }
 
+  buildFeatures {
+    compose = true
+  }
   buildTypes {
     release {
       isMinifyEnabled = false
