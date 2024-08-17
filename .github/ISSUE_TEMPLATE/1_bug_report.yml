@@ -1,0 +1,65 @@
+name: Bug Report
+description: Let me know about a bug you're experiencing.
+title: "[Bug]: "
+labels: ["bug"]
+assignees:
+  - tweakdeveloper
+body:
+  - type: markdown
+    attributes:
+      value: >
+        I'm really sorry you're experiencing an issue with mrkdown. Please fill
+        out the form below and I'll start working towards a fix for you. This
+        may involve reaching out to you via a comment on this issue for more
+        information, so please be sure to monitor your email for a notification
+        or check GitHub to see that I've replied.
+  - type: input
+    attributes:
+      label: Device
+      description: Which device do you use mrkdown on?
+      placeholder: "Example: Samsung Galaxy A54 5G"
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Android version
+      description: What version of Android is your device running?
+      options:
+        - Android 24 (7.0 Nougat)
+        - Android 25 (7.1 Nougat)
+        - Android 26 (8.0 Oreo)
+        - Android 27 (8.1 Oreo)
+        - Android 28 (9 Pie)
+        - Android 29 (10 Quince Tart)
+        - Android 30 (11 Red Velvet Cake)
+        - Android 31 (12 Snow Cone)
+        - Android 32 (12L Snow Cone)
+        - Android 33 (13 Tiramisu)
+        - Android 34 (14 Upside Down Cake)
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      label: Bug Category
+      description: Which of these categories most closely describes your issue?
+      options:
+        - User Interface
+        - Accessibility
+        - Functionality
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Bug Description
+      description: |
+        What are some of the specifics of the issue you're running into?
+      placeholder: >
+        Example: mrkdown fails to update the preview after I change the
+        Markdown text in the editor.
+    validations:
+      required: true
+  - type: markdown
+    attributes:
+      value: >
+        Thank you for taking the time to submit this report. mrkdown couldn't
+        exist or become better without you.
